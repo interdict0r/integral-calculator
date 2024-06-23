@@ -41,7 +41,7 @@ void calculate_integral() noexcept {
 int main() {
     const std::string title = "VEIL TECHNOLOGIES";
     SetConsoleTitleW(reinterpret_cast<LPCWSTR>(title.c_str()));
-    std::cout << "veil technologies integral calculator" << std::endl;
+    std::cout << "integral calculator" << std::endl;
     calculate_integral();
 
     return EXIT_SUCCESS;
